@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 
 cnx = connection.MySQLConnection(user='userBO1', password='hmsgWMNPMxggQLh4',
-                                 host='127.0.0.1',
+                                 host='172.21.28.39',
                                  database='ccsdataplatformdb')
 cnx.close()
 cursor = connection.cursor() #create a cursor so that you can interact with the database
